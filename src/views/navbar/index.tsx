@@ -1,10 +1,10 @@
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Logo from "@/assets/Logo.png";
-import Link from "../components/navbar/Link";
+import Link from "../../components/navbar/Link";
 import { SELECTED_PAGE } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import useToggledMenu from "@/hooks/useToggledMenu";
-import ActionButton from "../components/shared/ActionButton";
+import ActionButton from "../../components/shared/ActionButton";
 type Props = {
   selectedPage: SELECTED_PAGE;
   setSelectedPage: (value: SELECTED_PAGE) => void;

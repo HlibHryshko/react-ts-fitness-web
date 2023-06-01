@@ -1,7 +1,7 @@
-import NavBar from "@/views/NavBar";
+import NavBar from "@/views/navbar";
 import { useState, useEffect } from "react";
 import { SELECTED_PAGE } from "./shared/types";
-import Home from "./views/Home";
+import Home from "./views/home";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SELECTED_PAGE>(
