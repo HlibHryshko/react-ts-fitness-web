@@ -1,6 +1,7 @@
 import NavBar from "@/views/NavBar";
 import { useState, useEffect } from "react";
 import { SELECTED_PAGE } from "./shared/types";
+import Home from "./views/Home";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SELECTED_PAGE>(
@@ -31,6 +32,7 @@ function App() {
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
       />
+      <Home />
     </div>
   );
 }
