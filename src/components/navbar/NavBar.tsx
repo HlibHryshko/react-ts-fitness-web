@@ -8,16 +8,19 @@ import ActionButton from "../shared/ActionButton";
 type Props = {
   selectedPage: SELECTED_PAGE;
   setSelectedPage: (value: SELECTED_PAGE) => void;
+  isTopOfPage: boolean;
 };
 
-const NavBar = ({ selectedPage, setSelectedPage }: Props) => {
+const NavBar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
   const flexBetween = "flex items-center justify-between";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   const { isMenuVisible, toggleMenuVisibility } = useToggledMenu();
 
+  const navBarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
+
   return (
     <nav>
-      <div className="fixed top-0 z-30 w-full py-6">
+      <div className={`${navBarBackground} fixed top-0 z-30 w-full py-6`}>
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
             {/* Left side */}
