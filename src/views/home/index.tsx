@@ -8,6 +8,8 @@ import { SELECTED_PAGE } from "@/shared/types";
 import ActionButton from "@/components/shared/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+
+
 type Props = {
   setSelectedPage: (value: SELECTED_PAGE) => void;
 };
@@ -16,49 +18,53 @@ const Home = ({ setSelectedPage }: Props) => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
   return (
     <section id="home" className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0">
-      {/* Main Header and Image */}
-      <div>
+      {/* Main Header and Image and ActionButtons */}
+      <div className="mx-auto w-5/6 items-center justify-center md:flex md:h-5/6">
         {/* Main Header */}
-        <div>
+        <div className="z-10 mt-32 md:basis-3/5">
           {/* Headings */}
-          <div>
-            <div>
-              <img alt="evogym" src={HomePageText} />
+          <div className="md:mt-20">
+            <div className="relative">
+              <div className="before:absolute before:-left-20 before:-top-20 before:z-[-1] md:before:content-evolvetext">
+                <img alt="evogym" src={HomePageText} />
+              </div>
             </div>
-            <p>
+            <p className="mt-8 text-sm md:text-start">
               Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
               Studios to get the Body Shapes That you Dream of.. Get Your Dream
               Body Now
             </p>
           </div>
           {/* Actions */}
-          <div>
+          <div className="mt-8 flex items-center gap-8">
             <ActionButton setSelectedPage={setSelectedPage}>
               Join Now
             </ActionButton>
+            <AnchorLink
+              className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
+              onClick={() => {
+                setSelectedPage(SELECTED_PAGE.ContactUs);
+              }}
+              href={`#${SELECTED_PAGE.ContactUs}`}
+            >
+              <p>Learn More</p>
+            </AnchorLink>
           </div>
-          <AnchorLink
-            className="text-sm font-bold text-primary-500 underline hover:text-secondary-500"
-            onClick={() => {
-              setSelectedPage(SELECTED_PAGE.ContactUs);
-            }}
-            href={`#${SELECTED_PAGE.ContactUs}`}
-          >
-            <p>Learn More</p>
-          </AnchorLink>
         </div>
         {/* Image */}
-        <div>
+        <div className="flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end">
           <img alt="home-page-graphic" src={HomePageGraphic} />
         </div>
       </div>
       {/* Sponsors */}
       {isAboveMediumScreens && (
-        <div>
-          <div>
-            <img alt="redbull-sponsor" src={SponsorRedBull} />
-            <img alt="forbes-sponsor" src={SponsorForbes} />
-            <img alt="fortune-sponsor" src={SponsorFortune} />
+        <div className="h-[150px] w-full bg-primary-100">
+          <div className="mx-auto h-full w-5/6">
+            <div className="mx-auto flex h-full w-3/5 items-center justify-between gap-8">
+              <img alt="redbull-sponsor" src={SponsorRedBull} />
+              <img alt="forbes-sponsor" src={SponsorForbes} />
+              <img alt="fortune-sponsor" src={SponsorFortune} />
+            </div>
           </div>
         </div>
       )}
