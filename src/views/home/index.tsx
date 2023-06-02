@@ -5,7 +5,7 @@ import SponsorForbes from "@/assets/SponsorForbes.png";
 import SponsorFortune from "@/assets/SponsorFortune.png";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { SELECTED_PAGE } from "@/shared/types";
-import ActionButton from "@/components/shared/ActionButton";
+import ActionButton from "@/components/ActionButton";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { motion } from "framer-motion";
 

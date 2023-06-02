@@ -5,10 +5,10 @@ import {
 } from "@heroicons/react/24/solid";
 import { IBenefit, SELECTED_PAGE } from "@/shared/types";
 import { motion } from "framer-motion";
-import Benefit from "@/components/benefits/Benefit";
-import ActionButton from "@/components/shared/ActionButton";
+import Benefit from "@/views/benefits/Benefit";
+import ActionButton from "@/components/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
-import HeaderText from "@/components/shared/HeaderText";
+import HeaderText from "@/components/HeaderText";
 
 const container = {
   hidden: {},
