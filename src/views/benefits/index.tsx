@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import Benefit from "@/components/benefits/Benefit";
 import ActionButton from "@/components/shared/ActionButton";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
+import HeaderText from "@/components/shared/HeaderText";
 
 const container = {
   hidden: {},
@@ -66,9 +67,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
             visible: { opacity: 1, x: 0 },
           }}
         >
-          <h1 className="basis-3/5 font-montserrat text-3xl font-bold uppercase">
-            more than just gym
-          </h1>
+          <HeaderText>more than just gym</HeaderText>
           <p className="my-5 text-sm">
             We provide world class fitness equipment, trainers and classes to
             get you to your ultimate fitness goals with ease. We provide true
@@ -118,10 +117,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
             >
               <div className="before:absolute before:-left-20 before:-top-20 before:z-[-1] before:content-abstractwaves">
                 <div>
-                  <h1 className="basis-3/5 font-montserrat text-3xl font-bold uppercase">
+                  <HeaderText>
                     millions of happy members getting{" "}
                     <span className="text-primary-500">fit</span>
-                  </h1>
+                  </HeaderText>
                 </div>
               </div>
             </motion.div>
