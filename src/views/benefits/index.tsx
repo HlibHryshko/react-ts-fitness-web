@@ -24,19 +24,19 @@ const benefits: Array<IBenefit> = [
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
     description:
-      "fklajflkdasjflk;dasjfl;kajlfk fjdlak flkaj ldja lfkaj lka;f ;alfsda",
+      "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et.",
   },
   {
     icon: <UserGroupIcon className="h-6 w-6" />,
     title: "100's of Diverse Classes",
     description:
-      "fklajflkdasjflk;dasjfl;kajlfk fjdlak flkaj ldja lfkaj lka;f ;alfsda",
+      "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id.",
   },
   {
     icon: <AcademicCapIcon className="h-6 w-6" />,
     title: "Expert and Pro Trainers",
     description:
-      "fklajflkdasjflk;dasjfl;kajlfk fjdlak flkaj ldja lfkaj lka;f ;alfsda",
+      "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient.",
   },
 ];
 
@@ -137,17 +137,18 @@ const Benefits = ({ setSelectedPage }: Props) => {
               }}
             >
               <p className="my-5">
-                jflkdajf jfdakl al a jfda afjdlak; fa. a I dajfla dafdalk a
-                fdalkfjalkd jaslfdsl lkdjaflka;jf laksj lkfaj asj fjfad
-                areuryqio mcnvmc jwhe wioqeu fdh fawe fa hfkjdah fkahdfka
-                qkjenvcm,n hdfgjhm, fasdfh jkah fdayh dh jd a hfadjh kadsh ka
-                fkads fkjash fkasj hfaskj fa
+                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
+                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
+                fames vitae vitae quis. Quis amet vulputate tincidunt at in
+                nulla nec. Consequat sed facilisis dui sit egestas ultrices
+                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
+                Felis orci diam odio.
               </p>
               <p className="mb-5">
-                jklaj ljfa fa mflkadsj fuqioeqwur q rrqu eoirqu oprqur
-                eqwnffmnqm,f qwne,r qw rqw qm,nr kq rhqwjkhr,mqwenrm,qwen eqwhh
-                rkqwnr m,ewqnr qwenr m,qnrqpr up uvpau foip uoapis ufoiap ufopa
-                uf
+                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
+                tellus quam porttitor. Mauris velit euismod elementum arcu neque
+                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
+                enim mattis odio in risus nunc.
               </p>
             </motion.div>
 

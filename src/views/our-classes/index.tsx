@@ -13,37 +13,33 @@ const classes: Array<IClass> = [
   {
     name: "Weight Training Classes",
     description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image1,
   },
   {
     name: "Yoga Classes",
-    description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
     image: image2,
   },
   {
     name: "Ab Core Classes",
     description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image4,
   },
   {
     name: "Fitness Classes",
-    description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
     image: image5,
   },
   {
     name: "Training Classes",
     description:
-      "lorem ipsum dollofjdla jflaj ajd fja afjlk jflak jflkaj flksadj flkasj lfkasdj flkasj flska;j fflasf ja",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image6,
   },
 ];
@@ -75,8 +71,10 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HeaderText>our classes</HeaderText>
             <p className="py-5">
-              jgklfsdj glfs;djg sljkg slg;fsigopwi grewgn sgj ewio ggfjds
-              gnfmdsng erw goiew jgfln gmsdng oieru gowpgw
+              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
+              tellus quam porttitor. Mauris velit euismod elementum arcu neque
+              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
+              enim mattis odio in risus nunc.
             </p>
           </div>
         </motion.div>

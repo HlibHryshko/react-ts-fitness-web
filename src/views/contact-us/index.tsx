@@ -15,7 +15,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (e: any) => {
+  const onSubmit = async (e: { preventDefault: () => void }) => {
     const isValid = await trigger();
     if (!isValid) {
       e.preventDefault();
@@ -46,8 +46,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <span className="text-primary-500">join now</span> to get in shape
           </HeaderText>
           <p className="my-5">
-            fhhjdasjlfk jakf jkladsjflkajhfoiwquelmvc jvklj ekqlwj flcmx lkjdf
-            kldjasklf md,f jqkl fjdsa fjsak jflas
+            Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl
+            sapien vel rhoncus. Placerat at in enim pellentesque. Nulla
+            adipiscing leo egestas nisi elit risus sit. Nunc cursus sagittis.
           </p>
         </motion.div>
 

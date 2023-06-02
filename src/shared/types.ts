@@ -13,6 +13,6 @@ export interface IBenefit {
 
 export interface IClass {
   name: string;
-  description: string;
+  description?: string;
   image: string;
 }
